@@ -15,7 +15,6 @@ public class SuperDept {
 	}
 	
 	public String isTodayHoliday() {
-		System.out.println(" Today is not a Holiday");
 		return " Today is not a Holiday";
 	}
 
