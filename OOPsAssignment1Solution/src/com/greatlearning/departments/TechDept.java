@@ -3,19 +3,19 @@ package com.greatlearning.departments;
 public class TechDept extends SuperDept{
 	
 	public String departmentName() {
-		return "  Welcome to Tech Department ";
+		return " Tech Department ";
 	}
 	
 	public String getTodaysWork() {
-		return " Complete coding of Module 1";
+		return "Complete coding of Module 1";
 	}
 	
 	public String getWorkDeadline() {
-		return " Complete by EOD";
+		return "Complete by EOD";
 	}
 	
 	public String getTechStackInformation() {
-		return " Core Java";
+		return "Core Java";
 	}
 
 }
