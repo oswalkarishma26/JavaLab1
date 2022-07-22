@@ -1,9 +1,9 @@
 package com.greatlearning.departments;
 
-public class TechDept extends SuperDept{
+public class TechDept extends SuperDept {
 	
 	public String departmentName() {
-		return " Tech Department ";
+		return " Tech Department";
 	}
 	
 	public String getTodaysWork() {
@@ -15,7 +15,7 @@ public class TechDept extends SuperDept{
 	}
 	
 	public String getTechStackInformation() {
-		return "Core Java";
+		return " Core Java";
 	}
 
 }
