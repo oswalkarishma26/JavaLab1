@@ -13,14 +13,14 @@ public class Main {
 		HrDept hrDept = new HrDept();
 		TechDept techDept = new TechDept();
 		
-		System.out.println(" Welcome to "+adminDept.departmentName());
+		System.out.println(" Welcome to"+adminDept.departmentName());
 		System.out.println(adminDept.getTodaysWork());
 		System.out.println(adminDept.getWorkDeadline());
 		System.out.println(adminDept.isTodayHoliday());
 		
 		System.out.println();
 		
-		System.out.println(" Welcome to "+hrDept.departmentName());
+		System.out.println(" Welcome to"+hrDept.departmentName());
 		System.out.println(hrDept.doActivity());
 		System.out.println(hrDept.getTodaysWork());
 		System.out.println(hrDept.getWorkDeadline());
@@ -28,7 +28,7 @@ public class Main {
 		
 		System.out.println();
 		
-		System.out.println(" Welcome to "+techDept.departmentName());
+		System.out.println(" Welcome to"+techDept.departmentName());
 		System.out.println(techDept.getTodaysWork());
 		System.out.println(techDept.getWorkDeadline());
 		System.out.println(techDept.getTechStackInformation());
